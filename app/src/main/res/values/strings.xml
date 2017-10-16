@@ -2,20 +2,20 @@
     <string name="app_name">한성대 맛집 앱</string>
     <string name="restaurant1">큰 뫼</string>
     <string name="restaurant_address">서울시 성북구 삼선교로16길112</string>
-    <string name="restaurant_number1">02-760-234</string>
+    <string name="restaurant_number1">02-760-2234</string>
     <string name="restaurant_hour1">오전9시~오후9시</string>
     <string name="restaurant_menu">큰뫼 분식 메뉴</string>
 
-    <string name="food1">제육따로</string>
-    <string name="foodprice1">5,000원</string>
+    <string name="food1">계란찜</string>
+    <string name="foodprice1">4,500원</string>
     <string name="foodstar1">3.5점</string>
-    <string name="food2">계란찜 </string>
-    <string name="foodprice2">4,500원</string>
+    <string name="food2">제육따로 </string>
+    <string name="foodprice2">5,000원</string>
     <string name="foodstar2">3.8점</string>
-    <string name="food3">오삼따로</string>
+    <string name="food3">우렁된장찌개</string>
     <string name="foodprice3">5,500원</string>
     <string name="foodstar3">3.0점</string>
-    <string name="food4">오징어볶음</string>
+    <string name="food4">부대찌개</string>
     <string name="foodprice4">5,000원</string>
     <string name="foodstar4">3.4점</string>
 
