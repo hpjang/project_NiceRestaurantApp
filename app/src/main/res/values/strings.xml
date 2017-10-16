@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">한성대 맛집 앱</string>
-    <string name="restaurant1">큰 뫼</string>
+    <string name="restaurant1">큰뫼 분식</string>
     <string name="restaurant_address">서울시 성북구 삼선교로16길112</string>
     <string name="restaurant_number1">02-760-2234</string>
     <string name="restaurant_hour1">오전9시~오후9시</string>
