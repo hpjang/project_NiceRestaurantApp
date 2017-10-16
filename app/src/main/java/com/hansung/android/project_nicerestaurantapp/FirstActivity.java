@@ -41,14 +41,32 @@ public class FirstActivity extends AppCompatActivity {
         ListView listView = (ListView)findViewById(R.id.listView);
         listView.setAdapter(adapter);
 
+        ImageButton btn = (ImageButton)findViewById(R.id.call_Button1);
+        btn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent implicit_intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:02-760-234"));
+                startActivity(implicit_intent);
+            }
+        });
 
+        //리스트뷰 클릭 시 액티비티 적용
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View vClicked,
+                                    int position, long id) {
+                Intent intent = new Intent(getApplicationContext(), Food.class);
+                int img =((MyItem)adapter.getItem(position)).mimg;
+                int name = ((MyItem)adapter.getItem(position)).nName;
+                int price = ((MyItem)adapter.getItem(position)).nprice;
+                int star = ((MyItem)adapter.getItem(position)).star;
 
-
+                intent.putExtra("foodimg", img);
+                intent.putExtra("foodname", name);
+                intent.putExtra("foodprice", price);
+                intent.putExtra("foodstar", star);
+                startActivity(intent);
+            }
+        });
     }
-
-
-
-
 
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

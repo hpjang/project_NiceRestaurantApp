@@ -12,7 +12,7 @@
         android:layout_height="40pt"
         android:gravity="center"
         android:background="@color/colorbackground"
-        android:text="큰    뫼"
+        android:text="@string/restaurant1"
         android:textSize="50dp"
         />
 
@@ -41,7 +41,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="서울시 성북구 삼선교로16길112"
+                android:text="@string/restaurant_address"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
 
@@ -58,7 +58,7 @@
                     android:layout_weight="1"
 
 
-                    android:text="02-760-1234"
+                    android:text="@string/restaurant_number1"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
                     android:textColor="@color/colorAccent" />
 
@@ -77,7 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="오전9~오후9시"
+                android:text="@string/restaurant_hour1"
 
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
@@ -96,7 +96,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="큰뫼 분식 메뉴"
+            android:text="@string/restaurant_menu"
             android:textSize="20dp"
             />
 
