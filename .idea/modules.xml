@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/project_NiceRestaurantApp.iml" filepath="$PROJECT_DIR$/project_NiceRestaurantApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/project_NiceRestaurantApp.iml" filepath="$PROJECT_DIR$/project_NiceRestaurantApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/project_NiceRestaurantAppclone.iml" filepath="$PROJECT_DIR$/project_NiceRestaurantAppclone.iml" />
     </modules>
