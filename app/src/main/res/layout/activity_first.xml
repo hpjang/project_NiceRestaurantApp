@@ -54,17 +54,13 @@
 
 
                 <TextView
-<<<<<<< HEAD
+
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
 
 
-=======
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
->>>>>>> e3823c5fe626cffe1c7b979f4cba755b9b7e264f
                     android:text="@string/restaurant_number1"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
                     android:textColor="@color/colorAccent" />
@@ -75,13 +71,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:src="@drawable/phoneicon" />
-=======
-                    android:layout_width="20dp"
-                    android:layout_height="25dp"
-                    android:src="@drawable/images" />
->>>>>>> e3823c5fe626cffe1c7b979f4cba755b9b7e264f
 
+
+                    android:src="@drawable/images" />
 
             </LinearLayout>
 
