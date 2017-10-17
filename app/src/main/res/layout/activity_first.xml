@@ -41,6 +41,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="@string/restaurant_address"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
@@ -56,6 +57,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:gravity="center"
 
 
                     android:text="@string/restaurant_number1"
@@ -64,8 +66,8 @@
 
                 <ImageButton
                     android:id="@+id/call_Button1"
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:src="@drawable/phoneicon" />
 
