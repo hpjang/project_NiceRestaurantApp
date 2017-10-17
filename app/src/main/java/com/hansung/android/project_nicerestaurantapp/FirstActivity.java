@@ -44,7 +44,7 @@ public class FirstActivity extends AppCompatActivity {
         ImageButton btn = (ImageButton)findViewById(R.id.call_Button1);
         btn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Intent implicit_intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:02-760-234"));
+                Intent implicit_intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:02-760-1234"));
                 startActivity(implicit_intent);
             }
         });
